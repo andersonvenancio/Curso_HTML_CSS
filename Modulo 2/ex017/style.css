@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'original';
+    src: url('OriginalShadow_PERSONAL_USE_ONLY.otf') format('opentype'), url(OriginalShadow_PERSONAL_USE_ONLY.otf) format('truetype');
+    
+
+}
+/* Tipos de format ()
+- opentype (otf)
+-truetype (ttf)
+-embedded-opentype 
+-truetype-att (Apple Advanced Typography)
+- svg */
+
+
+h1 {
+    font-family: original ;
+    font-weight: normal;
+    /*Variações do peso das fontes
+
+    lighter normal bold bolder*/
+    font-style: italic;
+
+    /* shorthand font
+
+    ----> Ordem deve ser:
+    font-style-->font-weigh-->font-size-->font-family exemplo na próxima tag*/
+}
+p {
+    font: original;
+    font-weight: normal;
+}
